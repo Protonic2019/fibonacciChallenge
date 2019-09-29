@@ -19,6 +19,13 @@ So I should be able to call:
 fibonacciGenerator(3) and fibonacciGenerator
 [0,1,1]
 as the output.
+
+for (var i=1; i<2; i++){
+  do something
+}
+
+for (variable created with value 1; checks if variable i is smaller than 2; increments variable i)
+
 */
 
 function fibonacciGenerator (n) {
