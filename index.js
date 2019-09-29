@@ -33,9 +33,11 @@ var fibNum1 = 1;
 
 function fibonacciGenerator (n) {
   for (i=0; i<n; i++){
-    
+    console.log(fibNum0);
   }
   //TODO
 
   //Return an array of fibonacci numbers.
 }
+
+fibonacciGenerator(3);
