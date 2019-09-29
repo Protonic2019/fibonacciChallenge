@@ -24,6 +24,8 @@ for (var i=1; i<2; i++){
   do something
 }
 
+i++ increments by 1
+i+= x; increments by x
 for (variable created with value 1; checks if variable i is smaller than 2; increments variable i)
 
 */
@@ -40,4 +42,4 @@ function fibonacciGenerator (n) {
   //Return an array of fibonacci numbers.
 }
 
-fibonacciGenerator(3);
+//fibonacciGenerator(10);
