@@ -28,7 +28,13 @@ for (variable created with value 1; checks if variable i is smaller than 2; incr
 
 */
 
+var fibNum0 = 0;
+var fibNum1 = 1;
+
 function fibonacciGenerator (n) {
+  for (i=0; i<n; i++){
+    
+  }
   //TODO
 
   //Return an array of fibonacci numbers.
