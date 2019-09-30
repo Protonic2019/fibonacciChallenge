@@ -43,3 +43,21 @@ function fibonacciGenerator (n) {
 }
 
 //fibonacciGenerator(10);
+
+
+/*
+function fib(n){
+  var arr = [];
+  for (var i = 0; i < arr.length; i++){
+    if (n ===1)
+    arr.push(0);
+    } else if (n===2){
+      arr.push(1);
+      }else{
+        //add last two items in the array until arr.length is met
+      }
+    }
+  }
+}
+
+*/
