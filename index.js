@@ -30,11 +30,17 @@ for (variable created with value 1; checks if variable i is smaller than 2; incr
 
 */
 
+var fibSequence = [];
 var fibNum0 = 0;
 var fibNum1 = 1;
 
 function fibonacciGenerator (n) {
   for (i=0; i<n; i++){
+    if (n === 1){
+      fibSequence.push(fibNum0);
+    } else if (n === 2){
+      fibsequence.push(fibNum0, fibnum1);
+    }
     console.log(fibNum0);
   }
   //TODO
