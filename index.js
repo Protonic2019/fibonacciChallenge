@@ -35,20 +35,20 @@ var fibNum0 = 0;
 var fibNum1 = 1;
 
 function fibonacciGenerator (n) {
-  for (i=0; i<n; i++){
-    if (n === 1){
+  for (var i=0; i<n; i++){
+    if (n === 0){
       fibSequence.push(fibNum0);
-    } else if (n === 2){
-      fibsequence.push(fibNum0, fibnum1);
+    } else if (n === 1){
+      fibSequence.push(fibNum1);
     }
-    console.log(fibNum0);
+    console.log(fibSequence);
   }
   //TODO
 
   //Return an array of fibonacci numbers.
 }
 
-//fibonacciGenerator(10);
+fibonacciGenerator(2);
 
 
 /*
