@@ -67,3 +67,28 @@ function fib(n){
 }
 
 */
+/*
+var fibSequence = [];
+var fibNum0 = 0;
+var fibNum1 = 1;
+var fibNumx;
+var fibNumy;
+
+function fibonacciGenerator (n) {
+  for (var i=0; i<n; i++){
+    if (i === 0){
+      fibSequence.push(fibNum0);
+    } else if (i === 1){
+      fibSequence.push(fibNum1);
+    } else {
+      fibSequence.push(fibSequence[fibSequence.length-1] + fibSequence[fibSequence.length-2]);
+    }
+    console.log(fibSequence);
+  }
+  //TODO
+
+  //Return an array of fibonacci numbers.
+}
+
+fibonacciGenerator(10);
+*/
