@@ -67,7 +67,7 @@ function fib(n){
 }
 
 */
-/*
+
 var fibSequence = [];
 var fibNum0 = 0;
 var fibNum1 = 1;
@@ -83,12 +83,11 @@ function fibonacciGenerator (n) {
     } else {
       fibSequence.push(fibSequence[fibSequence.length-1] + fibSequence[fibSequence.length-2]);
     }
-    console.log(fibSequence);
   }
+  console.log(fibSequence);
   //TODO
 
   //Return an array of fibonacci numbers.
 }
 
-fibonacciGenerator(10);
-*/
+fibonacciGenerator(3);
