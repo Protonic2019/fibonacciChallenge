@@ -19,60 +19,17 @@ So I should be able to call:
 fibonacciGenerator(3) and fibonacciGenerator
 [0,1,1]
 as the output.
-
-for (var i=1; i<2; i++){
-  do something
-}
-
-i++ increments by 1
-i+= x; increments by x
-for (variable created with value 1; checks if variable i is smaller than 2; increments variable i)
-
-*/
-/*
-var fibSequence = [];
-var fibNum0 = 0;
-var fibNum1 = 1;
-
-function fibonacciGenerator (n) {
-  for (var i=0; i<n; i++){
-    if (n === 0){
-      fibSequence.push(fibNum0);
-    } else if (n === 1){
-      fibSequence.push(fibNum1);
-    }
-    console.log(fibSequence);
-  }
-  //TODO
-
-  //Return an array of fibonacci numbers.
-}
-
-fibonacciGenerator(2);
-*/
-
-/*
-function fib(n){
-  var arr = [];
-  for (var i = 0; i < arr.length; i++){
-    if (n ===1)
-    arr.push(0);
-    } else if (n===2){
-      arr.push(1);
-      }else{
-        //add last two items in the array until arr.length is met
-      }
-    }
-  }
-}
-
 */
 
 function fibonacciGenerator (n) {
 var fibSequence = [];
 var fibNum0 = 0;
 var fibNum1 = 1;
-  for (var i=0; i<n; i++){
+
+if (n===undefined){
+  return [0];
+}  
+for (var i=0; i<n; i++){
     if (i === 0){
       fibSequence.push(fibNum0);
     } else if (i === 1){
@@ -81,10 +38,6 @@ var fibNum1 = 1;
       fibSequence.push(fibSequence[fibSequence.length-1] + fibSequence[fibSequence.length-2]);
     }
   }
-  console.log(fibSequence);
-  //TODO
-
-  //Return an array of fibonacci numbers.
+  return fibSequence;
 }
-
-fibonacciGenerator(10);
+console.log(fibonacciGenerator(undefined));
