@@ -68,13 +68,10 @@ function fib(n){
 
 */
 
+function fibonacciGenerator (n) {
 var fibSequence = [];
 var fibNum0 = 0;
 var fibNum1 = 1;
-var fibNumx;
-var fibNumy;
-
-function fibonacciGenerator (n) {
   for (var i=0; i<n; i++){
     if (i === 0){
       fibSequence.push(fibNum0);
@@ -90,4 +87,4 @@ function fibonacciGenerator (n) {
   //Return an array of fibonacci numbers.
 }
 
-fibonacciGenerator(3);
+fibonacciGenerator(10);
